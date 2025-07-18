@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parqueo Interactivo</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <h1>Simulador de Parqueo</h1>
+
+  <div class="parking-lot">
+    <div class="slot" id="slot1">Parqueo 1</div>
+    <div class="slot" id="slot2">Parqueo 2</div>
+    <div class="slot" id="slot3">Parqueo 3</div>
+  </div>
+
+  <div class="car" id="car"></div>
+
+  <div class="controls">
+    <button onclick="moveCar('left')">⬅️ Mover Izquierda</button>
+    <button onclick="moveCar('right')">Mover Derecha ➡️</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+

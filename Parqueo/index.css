@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.parking-lot {
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 20px;
+  gap: 40px;
+  position: relative;
+  height: 160px;
+}
+
+.slot {
+  width: 120px;
+  height: 150px;
+  border: 3px dashed #555;
+  background-color: #ddd;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.car {
+  width: 60px;
+  height: 40px;
+  background-color: red;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  transition: left 0.5s ease;
+}
+
+.controls {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
